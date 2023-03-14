@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAACwsLAAAAAAAPzt/wD0xP8A////AOqP/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEREREREREREREAAAAAAREREERERERAEREEREREREQBEQRERFRERAERBERFNUREAREERFMzVERAEQRFMzM1REQBBEUzUyVEQBEERFVFVEQBEQRERERERAERBEREREREAREQREREREAREREAAAAAARERERERERERERERERERERERH//wAA4A8AAMAHAACAAwAAgAMAAIADAACAAQAAgAAAAIABAACAAwAAgAMAAIADAADABwAA4A8AAP//AAD//wAA" rel="icon" type="image/x-icon" />
+
+
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Josefina Dawson | Diseñadora</title>
+  </head>
+
+  <body>
+
+    <nav>
+      <h1>Josefina Dawson</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">Acerca de mi</a></li>
+        <li><a href="#skills" class="nav-link">Habilidades</a></li>
+        <li><a href="#projects" class="nav-link">Projectos</a></li>
+        <li><a href="#contact" class="nav-link">Contacto</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+
+    <section class="hero" id="about">
+      <img
+        src="assets/images/fdp.svg"
+        alt="jose"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h1 class="bio-title">Acerca de mi</h1>
+        <p class="bio-text">Soy gestora de proyectos de TI con conocimientos integrales de desarrollo de software y diseño. También tengo experiencia en coordinación con accionistas</p>
+      </div>
+    </section>
+
+    <section class="more-about">
+      <h2>Mis estudios </h2>
+      <p style="border: 3px solid rgb(255, 20, 147)"> 
+      <b>Universidad Juárez.</b>
+      Licenciatura en Diseño | De diciembre 2008 a diciembre 2012
+      <p>Estudios complementarios de Administración.</p>
+      <p>Mi tesis se centró en el estudio de varias empresas y la optimización de su proceso.</p>
+      
+      <p style="border: 3px solid rgb(255, 20, 147)">
+      <b>Centro de Estudios de Posgrado HGFZ.</b>Maestría en Gestión | Enero 2013 a diciembre 2014
+      <p>Estudios de planificación, coordinación y ética.</p>
+      <p>Trabajé para varias startups en el lanzamiento de aplicaciones.</p>
+
+    </section>
+
+    <section class="skills" id="skills">
+      <h2 class="skill-header">Mis habilidades</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/iconohtml.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript-logo.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+          src="assets/icons/icons8-css3.svg"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+
+          <img 
+          src="assets/icons/iconoagile.svg"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/iconoscrum.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Mis projectos</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/3-1.png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Banderilla</h3>
+
+          <a href="http://corndog.io/" target="_blank" class="project-link">Visitalo</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/1-1.png"
+            alt="1-1"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Checkbox Olympics</h3>
+
+          <a href="https://checkbox.toys/scale/" target="_blank" class="project-link">Visitalo</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/2-1.png"
+            alt="2-1"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Raro o confuso </h3>
+
+          <a href="https://weirdorconfusing.com/" target="_blank" class="project-link">Visitalo</a>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="contact" id="contact">
+      <h2>¡Contactame!</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylnggw" method="POST">
+            <div class="form-control">
+              <label for="name">Nombre</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Correo electronico</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Ingrese su mensaje"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Mensaje</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </div>
+    <div class="socials">
+</a>
+      <a href="https://www.linkedin.com/" target="_blank"
+        ><img
+          src="assets/icons/linkedingif.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+
+      /></a>
+      <a href="https://github.com/" target="_blank"
+        ><img src="assets/icons/githubgif.gif" 
+        alt="Github" 
+        class="socicon"
+      /></a>
+
+      <a href="https://twitter.com/?lang=es" target="_blank"
+        ><img
+          src="assets/icons/twittergif.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.instagram.com/" target="_blank"
+        ><img
+          src="assets/icons/instagramgif.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+          /></a>
+    </div>
+
+    <footer>
+      <p class="copy">
+        Con &#x2661;
+          Jose</a</p>
+    </footer>
+
+    <script src="assets/js/app.js"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
